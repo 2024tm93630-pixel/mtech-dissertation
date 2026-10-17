@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Self_Reported_Confidence__c</fullName>
+    <label>Self-Reported Confidence</label>
+    <description>Condition A only: the LLM's own confidence (0-1), compared against Confidence__c for RQ2.</description>
+    <externalId>false</externalId>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

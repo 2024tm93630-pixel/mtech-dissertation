@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dimension_Scores__c</fullName>
+    <label>Dimension Scores</label>
+    <description>Raw LLM-returned scores / checklist booleans (JSON).</description>
+    <externalId>false</externalId>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

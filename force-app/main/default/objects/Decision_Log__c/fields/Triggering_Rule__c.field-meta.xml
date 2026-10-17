@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Triggering_Rule__c</fullName>
+    <label>Triggering Rule</label>
+    <description>Gate 4 rule that produced the AI recommendation.</description>
+    <externalId>false</externalId>
+    <length>150</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

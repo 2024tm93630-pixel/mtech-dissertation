@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Derived_Values__c</fullName>
+    <label>Derived Values</label>
+    <description>Apex-derived values: flags, checklist scores, override_fired, sub-reason (JSON).</description>
+    <externalId>false</externalId>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>

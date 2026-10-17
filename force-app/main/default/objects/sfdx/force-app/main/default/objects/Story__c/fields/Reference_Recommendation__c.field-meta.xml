@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reference_Recommendation__c</fullName>
+    <label>Reference Recommendation (Condition C)</label>
+    <description>Author's manual reference judgment, recorded BEFORE running Conditions A/B to avoid anchoring bias.</description>
+    <externalId>false</externalId>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Enter Sprint</fullName>
+                <default>false</default>
+                <label>Enter Sprint</label>
+            </value>
+            <value>
+                <fullName>Refine First</fullName>
+                <default>false</default>
+                <label>Refine First</label>
+            </value>
+            <value>
+                <fullName>Hold</fullName>
+                <default>false</default>
+                <label>Hold</label>
+            </value>
+            <value>
+                <fullName>Discard/Reassess</fullName>
+                <default>false</default>
+                <label>Discard/Reassess</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

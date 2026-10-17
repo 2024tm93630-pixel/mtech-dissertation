@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Story__c</fullName>
+    <label>Story</label>
+    <description>Story decided on.</description>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <referenceTo>Story__c</referenceTo>
+    <relationshipLabel>Decision Logs</relationshipLabel>
+    <relationshipName>Decision_Logs</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

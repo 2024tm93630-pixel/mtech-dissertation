@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira_Issue_Key__c</fullName>
+    <label>Jira Issue Key</label>
+    <description>Linked Jira issue key; external ID used for idempotent webhook upserts.</description>
+    <caseSensitive>false</caseSensitive>
+    <externalId>true</externalId>
+    <length>80</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Confidence__c</fullName>
+    <label>Confidence</label>
+    <description>Apex-computed per-gate confidence (C1/C2/C3) or Overall_Confidence at Gate 4; 0-1.</description>
+    <externalId>false</externalId>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

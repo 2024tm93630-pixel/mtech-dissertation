@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metadata_Tags__c</fullName>
+    <label>Metadata Tags</label>
+    <description>Hand-authored static tags: Objects, Fields, Automations touched (JSON). Source for Gate 2 Metadata Overlap context (Decision #18).</description>
+    <externalId>false</externalId>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>6</visibleLines>
+</CustomField>
